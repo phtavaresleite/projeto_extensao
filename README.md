@@ -32,7 +32,6 @@ O projeto consistiu em três pilares principais:
   - Interface intuitiva para consulta e edição de registros.  
 
 - **Segurança e Integridade**:  
-  - Autenticação de usuários para acesso ao sistema.  
   - Backup automatizado de dados para o Terabox.  
 
 ---
