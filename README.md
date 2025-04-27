@@ -1,4 +1,3 @@
-```markdown
 # Projeto de Extensão II - Engenharia de Software
 
 ![Badge Status](https://img.shields.io/badge/Status-Concluído-green)
