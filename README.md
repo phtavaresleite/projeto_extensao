@@ -1,5 +1,3 @@
-Aqui está um modelo de **README.md** para seu projeto no GitHub, adaptado ao contexto descrito:
-
 ```markdown
 # Projeto de Extensão II - Engenharia de Software
 
