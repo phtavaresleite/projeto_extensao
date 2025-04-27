@@ -1,61 +1,104 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Aqui está um modelo de **README.md** para seu projeto no GitHub, adaptado ao contexto descrito:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+```markdown
+# Projeto de Extensão II - Engenharia de Software
 
-## About Laravel
+![Badge Status](https://img.shields.io/badge/Status-Concluído-green)
+![Tecnologia Principal](https://img.shields.io/badge/Laravel-Framework-orange?logo=laravel)
+![Banco de Dados](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Este repositório contém o projeto desenvolvido para a disciplina **Projeto de Extensão II** do curso de Engenharia de Software. A iniciativa visou modernizar a infraestrutura tecnológica de uma instituição, integrando soluções de rede, armazenamento em nuvem e desenvolvimento de software para otimizar processos administrativos e prevenir perda de dados.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📋 Visão Geral do Projeto
 
-## Learning Laravel
+O projeto consistiu em três pilares principais:
+1. **Configuração de Rede**:  
+   - Implementação de DHCP para distribuição automática de endereços IP.  
+   - Configuração de roteadores em modo *Access Point* para ampliação da cobertura de rede.  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. **Backup em Nuvem**:  
+   - Migração de arquivos essenciais para o serviço Terabox, garantindo redundância e acesso remoto.  
+   - Compatibilidade com sistemas Windows, priorizando facilidade de uso pela instituição.  
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+3. **Sistema Web Interno**:  
+   - Desenvolvimento de uma aplicação para cadastro de alunos utilizando **Laravel** (PHP) e **MySQL**.  
+   - Funcionalidades: registro de dados pessoais, contatos, endereço, observações e gerenciamento de informações críticas.  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠️ Funcionalidades do Sistema
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Cadastro de Alunos**:  
+  - Campos inclusos: nome completo, nome dos pais, endereço, telefone, e-mail e observações customizáveis.  
+  - Interface intuitiva para consulta e edição de registros.  
 
-### Premium Partners
+- **Segurança e Integridade**:  
+  - Autenticação de usuários para acesso ao sistema.  
+  - Backup automatizado de dados para o Terabox.  
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🚀 Tecnologias Utilizadas
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Frontend**: Blade (Laravel), HTML/CSS, JavaScript.  
+- **Backend**: PHP Laravel (MVC), Eloquent ORM.  
+- **Banco de Dados**: MySQL.  
+- **Infraestrutura**: DHCP, Roteadores (Modo Access Point), Terabox (Armazenamento em Nuvem).  
+- **Ferramentas**: Composer, Git, XAMPP/MySQL Workbench.  
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📥 Instalação e Execução
 
-## Security Vulnerabilities
+1. **Pré-requisitos**:  
+   - PHP ≥ 8.1, Composer, MySQL, Servidor web (ex: Apache).  
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+2. **Clonar o Repositório**:  
+   ```bash
+   git clone https://github.com/phtavaresleite/projeto_extensao.git
+   cd projeto_extensao
+   ```
 
-## License
+3. **Instalar Dependências**:  
+   ```bash
+   composer install
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+4. **Configurar Ambiente**:  
+   - Renomear `.env.example` para `.env` e ajustar as variáveis de ambiente (ex: credenciais do MySQL).  
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Migrar Banco de Dados**:  
+   ```bash
+   php artisan migrate --seed
+   ```
+
+6. **Iniciar Servidor**:  
+   ```bash
+   php artisan serve
+   ```
+   Acesse `http://localhost:8000` no navegador.  
+
+---
+
+## 🤝 Contribuidores
+
+- [Paulo Henrique](https://github.com/phtavaresleite)  
+- *Colaboradores ou orientadores, se aplicável.*  
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.  
+
+---
+
+## 🌐 Contexto Acadêmico
+
+Desenvolvido como parte do projeto de extensão **Anhanguera**, com o objetivo de integrar conhecimentos teóricos da Engenharia de Software a demandas reais de organizações, promovendo inovação e responsabilidade social tecnológica.  
+```
