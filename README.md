@@ -83,8 +83,7 @@ O projeto consistiu em três pilares principais:
 
 ## 🤝 Contribuidores
 
-- [Paulo Henrique](https://github.com/phtavaresleite)  
-- *Colaboradores ou orientadores, se aplicável.*  
+- [Paulo Henrique](https://github.com/phtavaresleite) 
 
 ---
 
